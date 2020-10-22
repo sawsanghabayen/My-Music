@@ -1,0 +1,90 @@
+body{
+    background: #D3D3D3;
+        margin: 0px;
+        padding: 0px;
+}
+
+.container-all-divs{
+
+    min-width:1680px;
+    white-space: nowrap;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    display: block;
+    position: absolute;
+     
+}
+
+
+.audio-player{
+    width: 350px;;
+    height: 600px;
+    background: #ffffff;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 12px;
+    border-radius: 19px 0px 0px 19px;
+    box-shadow: 0 0 15px 5px #551a8b;
+    background-image: linear-gradient(#6c6cff,#6b3636);
+    
+}
+
+
+.album_art{
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 9px #551a8b;
+    
+}
+
+.song-title{
+    width: 300px;
+    padding: 5px 0px 5px 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 15px;
+    font-family:  sans-serif;
+    font-size: 25px;
+}
+
+.next-song-title{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.song-slider{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.current-time{
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.duration{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.player{
+    
+    margin: 7px;
+}
+
+.controllers{
+    margin-top: 25px;
+    
+}
+
+.volume-controller{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
